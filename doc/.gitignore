@@ -1,0 +1,42 @@
+### macOS ###
+*.DS_Store
+
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# for emacs
+*~
+[#]*[#]
+ 
+# for Eclipse
+*.project
+ 
+# for Logs and databases
+*.log
+ 
+# remove SVN
+.svn
+
+# for Xcode
+.*.swp
+.clang_complete
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+ 
+# for IDEA
+*/build/*
+.idea/*
+*.iml
+/out/*
+
+
