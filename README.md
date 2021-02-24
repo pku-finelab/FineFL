@@ -11,7 +11,7 @@
 - TFF: TensorFlow Federated (TFF) is an open-source framework for machine learning and other computations on decentralized data.
 
 
-## 实践案例
+## 实践教程
 - FedML联邦学习框架  [查看](doc/FedML.md)
 - 基于FedML的物体检测（YOLO v3+COCO）[查看](doc/FedML_YOLOv3.md)
 - 基于FedML的物体识别（ResNet18+cifar）[查看](doc/FedML_ResNet18.md)
