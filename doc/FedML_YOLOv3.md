@@ -170,10 +170,11 @@ result_aggregator = YOLOv3ResultAggregator()
 初始化model_trainer和result_aggregator。二者都是模型相关的，因此对于不同的模型要重新定义。见4.2.3和4.2.4.
 
 ###  4.5 启动集群
-启动集群相关的程序在/FedML/fedml_experiments/distributed/fedYOLOv3文件夹下。具体解释参考4.1.3.
+用于启动集群相关的程序在是./fedml_experiments/distributed/fedYOLOv3/run_fedavg_distributed_pytorch.sh。具体解释参考FedML联邦学习框架  [查看](FedML.md)的4.4节.
 
 启动集群的命令示例为：
+```
     sh run_fedavg_distributed_pytorch.sh 10 5 50
-
-即共有10个client，每轮训练有5个client参加，一共训练50轮。由于生成数据集的限制，所有训练者的个数最多是10.
+```
+意为共有10个client，每轮训练有5个client参加，一共训练50轮。由于生成数据集的限制，所有训练者的个数最多是10.
 
